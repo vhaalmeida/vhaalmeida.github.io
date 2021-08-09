@@ -36,7 +36,8 @@
 }
 
 #event-header-simple .text::before {
-	content:"Bem-vinda, Céu"
+	content:"Bem-vinda, Céu";
+	color:#b78086;
 }
 
 
