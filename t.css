@@ -62,3 +62,34 @@
 	display: block;
 	margin:0;
 }
+
+.gift-card {
+	border-width: 2px;
+	border-radius: 4px;
+}
+
+.gift-card__photo-title {
+	position:relative;
+	width:100%;
+	background:none;
+	color:#000;
+    padding: 10px;
+    float:left;
+}
+
+.gift-card__info {
+	height: auto;
+}
+
+.custom-primary__button {
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+	font-weight:bold;
+	display: block;
+	font-size:1.75rem
+}
+
+.custom-primary__button small {
+	float:left;
+	width: 100%;
+}
