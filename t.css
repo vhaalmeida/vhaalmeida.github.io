@@ -38,3 +38,27 @@
 #event-header-simple .text::before {
 	content:"Bem-vinda, Céu"
 }
+
+
+.newsfeed__content {
+	margin-left: 0!important;
+	align-items:flex-start;
+}
+
+.newsfeed__content>a {
+	display: block;
+	padding: 5px;
+	border-radius:5px;
+	border: 2px solid #ccc;
+	margin: 5px;
+	background: #fff;
+	float:left;
+}
+.newsfeed__content>a:hover {
+	border-color: #b78086
+}
+
+.newsfeed__content>a img {
+	display: block;
+	margin:0;
+}
