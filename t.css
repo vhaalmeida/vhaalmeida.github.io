@@ -101,3 +101,9 @@
 	padding-right:0;
 	padding-left:0
 }
+
+
+.header-event__logo + div,
+.header-event__logo {
+	display: none !important;
+}
