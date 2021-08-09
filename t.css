@@ -73,8 +73,9 @@
 	width:100%;
 	background:none;
 	color:#000;
-    padding: 10px;
-    float:left;
+	padding: 10px;
+	float:left;
+	white-space: nowrap;
 }
 
 .gift-card__info {
@@ -92,4 +93,10 @@
 .custom-primary__button small {
 	float:left;
 	width: 100%;
+}
+
+
+.form .event-activity {
+	padding-right:0;
+	padding-left:0
 }
