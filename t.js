@@ -5,6 +5,8 @@
     link.type = 'text/css';
     link.href = '//vhaalmeida.github.io/t.css';
     head.appendChild(link);
+    
+    document.title = 'Bem-vinda, Céu'
   
     /*var targetDiv = document.getElementById("event-header-simple").getElementsByClassName("names")[0].getElementsByClassName("text")[0];
     
