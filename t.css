@@ -1,1 +1,40 @@
-body {}
+.wrapper--techno {
+    box-shadow: none;
+}
+.header-event [class*=header-event]:nth-child(4),
+.header-event [class*=header-event]:nth-child(5){
+    display:none!important;
+}
+.footer {
+    background: transparent!important;
+}
+
+.menu-wedding li:after {
+	display: none!important
+}
+
+.menu-wedding.custom-menu__bg-sec li .custom-menu__link {
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 5px;
+	transition: all .25s linear;
+}
+
+.event-theme__wrapper>.container>.row>.col-lg-10.col-lg-offset-1 {
+	width:100%;
+  	margin-left: 0;
+}
+
+.sidebar--themes {
+	border-top-color: #ccc;
+	border-bottom-color: #ccc;
+}
+
+.countdown-theme--techno {
+	width:100%;
+	max-width:none;
+}
+
+#event-header-simple .text::before {
+	content:"Bem-vinda, Céu"
+}
