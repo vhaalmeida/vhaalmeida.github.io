@@ -107,3 +107,8 @@
 .header-event__logo {
 	display: none !important;
 }
+
+.giftlist-cart__count {
+	z-index: 9999;
+	right:0;
+}
