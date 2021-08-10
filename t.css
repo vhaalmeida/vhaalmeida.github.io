@@ -112,3 +112,25 @@
 	z-index: 9999;
 	right:0;
 }
+
+label[for=physical_card] {
+    font-size: 1.5rem;
+    font-weight:bold;
+    padding-left: 40px !important;
+}
+
+label[for=physical_card]::before {
+	content: "Atenção: marcando aqui, ";
+}
+
+label[for=physical_card]::after {
+	content: "Atenção: O valor de R$12,99 não é enviado para os donos da lista.";
+	display: block;
+}
+#physical_card+span::after,
+#physical_card+span::before {
+	width: 30px;
+	height: 30px;
+	font-size: 20px;
+	padding-top: 5px;
+}
