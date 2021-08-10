@@ -134,3 +134,18 @@ label[for=physical_card]::after {
 	font-size: 20px;
 	padding-top: 5px;
 }
+
+
+#wbp-list-sections .save-the-date p>a {
+	background-color: #b78086;
+    border-color: #92666b;
+    color: #fff;
+    display:inline-block;
+    width:auto;
+    padding: 10px 15px;
+    border-radius: 2px;
+    border: 1px solid #92666b;
+    text-transform:uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight:bold;
+}
