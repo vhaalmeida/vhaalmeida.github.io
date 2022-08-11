@@ -79,6 +79,7 @@ smls.hf = smls.hf || {};
           'passeios.smiles.com.br',
           'cruzeiros.smiles.com.br',
           'shoppingsmiles.myvtex.com',
+          'uv2532--shoppingsmiles.myvtex.com',
           'smiles.horasmagicas.com'
         ];
         return partners.indexOf(self.HOST) > -1;
@@ -106,6 +107,7 @@ smls.hf = smls.hf || {};
           'cruzeiros.smiles.com.br',
           'shoppingsmileshml.myvtex.com',
           'shoppingsmiles.myvtex.com',
+          'uv2532--shoppingsmiles.myvtex.com',
           'releaseavanti--shoppingsmileshml.myvtex.com'
         ];
         return !(partners.indexOf(self.HOST) > -1);
@@ -520,6 +522,7 @@ smls.hf = smls.hf || {};
         'shopping.smiles.com.br',
         'shoppingsmileshml.myvtex.com',
         'shoppingsmiles.myvtex.com',
+        'uv2532--shoppingsmiles.myvtex.com',
         'releaseavanti--shoppingsmileshml.myvtex.com'
       ];
       const carsDomains = ['carros.smiles.com.br'];
