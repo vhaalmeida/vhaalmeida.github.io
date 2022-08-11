@@ -212,8 +212,11 @@ smls.hf = smls.hf || {};
       const shoppingMenu = self.getMenuOption('shopping');
       if (
         shoppingMenu &&
-        shoppingMenu.classList.contains('smls-hf-active') &&
-        window.location.hostname.indexOf('myvtex.com') >= 0
+        //shoppingMenu.classList.contains('smls-hf-active') &&
+        (
+            window.location.hostname.indexOf('myvtex.com') >= 0 ||
+            window.location.hostname.indexOf('shoppingsmiles') >= 0
+        )
       ) {
         return 'shopping';
       }
