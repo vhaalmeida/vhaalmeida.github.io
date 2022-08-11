@@ -985,6 +985,7 @@ smls.hf = smls.hf || {};
     },
 
     init: function () {
+      console.log('init called')
       const self = this;
       self.initCommonsElements();
       self.activePartnerMenu();
