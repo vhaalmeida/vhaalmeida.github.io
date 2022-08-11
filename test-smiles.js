@@ -1078,6 +1078,7 @@ if (window.addEventListener) {
 }
 
 window.smlsReloadHeader = function () {
+  console.log(`smlsReloadHeader called`)
   smls.hf.Controller.checkPartnerToken();
   smls.hf.Controller.init();
 };
